@@ -1,7 +1,7 @@
 ﻿
 void PrintArrayInt(int[] array)
 {
-        Console.Write("[ ");
+        Console.Write("[");
         for (int i = 0; i < array.Length; i++)
         {
             if(i < array.Length - 1) Console.Write($"{array[i]}, ");
@@ -22,22 +22,26 @@ int[] CreateArray(int numberOfElements, int min, int max)
 
 int[] CreateEvenNumbersArray(int[] array)
 {
+    int outLength = 0;
     int[] outArray = new int[0];
     for (int i = 0; i < array.Length; i++)
     {
-        if(array[i]%2!=0) continue;
-        else
+        if(array[i]%2==0)
         {
-            Array.Resize(ref outArray, 1);
-            outArray[outArray.Length-1] = array[i];
+            outLength++;
+            Array.Resize(ref outArray, outLength);
+            outArray[outLength-1] = array[i];
         }
     }
     return outArray;
 }
 
+Console.Clear();
 var array = CreateArray(10 , -10, 10);
 PrintArrayInt(array);
-Console.Write(" => ");
+Console.Write(" -> ");
 var outArray = CreateEvenNumbersArray(array);
 PrintArrayInt(outArray);
+Console.WriteLine();
+Console.WriteLine();
 
