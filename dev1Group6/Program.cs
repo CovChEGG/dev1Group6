@@ -29,12 +29,12 @@ int[] CreateEvenNumbersArray(int[] array)
         if(array[i]%2!=0) continue;
         else
         {
-            Array.Resize(ref outArray, 1)
-            
+            Array.Resize(ref outArray, 1);
+            outArray[outArray.Length-1] = array[i];
         }
     }
 }
 
 var array = CreateArray(10 , -10, 10);
 PrintArrayInt(array);
-CreateEvenNumbersArray(int[] array)
+CreateEvenNumbersArray(array);
