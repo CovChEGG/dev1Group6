@@ -37,4 +37,6 @@ int[] CreateEvenNumbersArray(int[] array)
 
 var array = CreateArray(10 , -10, 10);
 PrintArrayInt(array);
-CreateEvenNumbersArray(array);
+var outArray = CreateEvenNumbersArray(array);
+PrintArrayInt(outArray);
+
