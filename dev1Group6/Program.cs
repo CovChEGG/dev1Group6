@@ -4,11 +4,9 @@ void PrintArrayInt(int[] array)
         Console.Write("[ ");
         for (int i = 0; i < array.Length; i++)
         {
-            Console.Write($"{array[i]}, ");
+            if(i < array.Length - 1) Console.Write($"{array[i]}, ");
+            else Console.Write($"{array[i]}]");
         }
-        Console.Write("]");
-    }
-    Console.WriteLine();
 }
 
 int[] CreateArray(int numberOfElements, int min, int max)
@@ -17,7 +15,7 @@ int[] CreateArray(int numberOfElements, int min, int max)
     Random rnd = new Random();
     for (int i = 0; i < numberOfElements; i++)
         {
-            array[i, i] = rnd.Next(min, max);
+            array[i] = rnd.Next(min, max);
         }
     return array;
 }
@@ -25,7 +23,7 @@ int[] CreateArray(int numberOfElements, int min, int max)
 int[] CreateEvenNumbersArray(int[] array)
 {
     int[] outArray = new int[0];
-    for (int i = 0; i < array.length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         if(array[i]%2!=0) continue;
         else
@@ -34,11 +32,12 @@ int[] CreateEvenNumbersArray(int[] array)
             outArray[outArray.Length-1] = array[i];
         }
     }
+    return outArray;
 }
 
 var array = CreateArray(10 , -10, 10);
 PrintArrayInt(array);
-Console.WriteLine(" => ");
+Console.Write(" => ");
 var outArray = CreateEvenNumbersArray(array);
 PrintArrayInt(outArray);
 
