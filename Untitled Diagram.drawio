@@ -1,1 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T16:49:17.828Z" agent="5.0 (Windows)" version="16.5.3" etag="SThAz8M48QDXzA1QuXh5" type="github"><diagram id="o4FirnvywalzVpw2QpcL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-02T17:16:27.547Z" agent="5.0 (Windows)" etag="UKKP3_wYcfJuTvzbEph0" version="16.5.3" type="github">
+  <diagram id="o4FirnvywalzVpw2QpcL" name="Page-1">
+    <mxGraphModel dx="1102" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="huOrPXU11JPkUaO9ujRi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-1" target="huOrPXU11JPkUaO9ujRi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="35" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-2" target="huOrPXU11JPkUaO9ujRi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-2" value="&lt;div&gt;генерация массива&lt;/div&gt;&lt;div&gt;(mainArray)&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.08333333333333333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-5" target="huOrPXU11JPkUaO9ujRi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-5" value="&lt;div&gt;поиск количества&lt;/div&gt;&lt;div&gt;и формирование нового массива&lt;/div&gt;&lt;div&gt;(mainArray)&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05;" vertex="1" parent="1">
+          <mxGeometry x="60" y="295" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-7" target="huOrPXU11JPkUaO9ujRi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-7" value="&lt;div&gt;вывод массива&lt;/div&gt;&lt;div&gt;(mainArray)&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.08333333333333333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-10" target="huOrPXU11JPkUaO9ujRi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-10" value="&lt;div&gt;вывод массива&lt;/div&gt;&lt;div&gt;(outArray)&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.08333333333333333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-12" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="535" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-14" target="huOrPXU11JPkUaO9ujRi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-14" value="&lt;div&gt;поиск количества&lt;/div&gt;&lt;div&gt;и формирование нового массива&lt;/div&gt;&lt;div&gt;(mainArray)&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05;" vertex="1" parent="1">
+          <mxGeometry x="470" y="35" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-15" target="huOrPXU11JPkUaO9ujRi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-15" value="mainLength = mainArray.Length;&lt;div&gt;outLength = 0;&lt;/div&gt;&lt;div&gt;&lt;div&gt;int[] outArray = new int[outLength];&lt;/div&gt;&lt;div&gt;i = 0;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="135" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-19" target="huOrPXU11JPkUaO9ujRi-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="260" />
+              <mxPoint x="760" y="600" />
+              <mxPoint x="570" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-19" value="i &amp;lt; mainLength " style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-19" target="huOrPXU11JPkUaO9ujRi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-25" target="huOrPXU11JPkUaO9ujRi-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-25" target="huOrPXU11JPkUaO9ujRi-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-25" value="mainArray[ i ] - нечётный" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-27" value="i = i +1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="huOrPXU11JPkUaO9ujRi-30" target="huOrPXU11JPkUaO9ujRi-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-30" value="&lt;div&gt;outLength = outLength + 1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;увеличиваем массив outArray на один элемент&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;outArray[outLength -1]=mainArray[ i ]&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="460" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="huOrPXU11JPkUaO9ujRi-34" value="возвращаем массив чётных чисел outArray " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="650" width="190" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
