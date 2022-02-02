@@ -1,11 +1,12 @@
 ﻿
 void PrintArrayInt(int[] array)
 {
+        Console.Write("[ ");
         for (int i = 0; i < array.Length; i++)
         {
-            Console.Write($"{array[i]}\t");
+            Console.Write($"{array[i]}, ");
         }
-        Console.WriteLine();
+        Console.Write("]");
     }
     Console.WriteLine();
 }
@@ -37,6 +38,7 @@ int[] CreateEvenNumbersArray(int[] array)
 
 var array = CreateArray(10 , -10, 10);
 PrintArrayInt(array);
+Console.WriteLine(" => ");
 var outArray = CreateEvenNumbersArray(array);
 PrintArrayInt(outArray);
 
